@@ -15,5 +15,8 @@ public class PlaceManager : MonoBehaviour
     public void PressToPlace()
     {
         newPlacedObject = Instantiate(objectToPlace, indicator.transform.position, indicator.transform.rotation);
+        Debug.Log("Enemy was placed");
     }
+
+    
 }
